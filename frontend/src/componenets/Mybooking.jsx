@@ -9,7 +9,7 @@ function Mybooking() {
     const fetchBookings = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await axios.get('http://localhost:3001/bookings', {
+        const res = await axios.get(' https://module-6.onrender.com/bookings', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

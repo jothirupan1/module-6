@@ -14,7 +14,7 @@ function Register() {
     e.preventDefault();
 
     try {
-      await axios.post("http://localhost:3001/register", {
+      await axios.post(" https://module-6.onrender.com/register", {
         name,
         email,
         password,

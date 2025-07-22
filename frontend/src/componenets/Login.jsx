@@ -12,7 +12,7 @@ function Login() {
     e.preventDefault();
 
     try {
-      const res = await axios.post('http://localhost:3001/login', {
+      const res = await axios.post(' https://module-6.onrender.com/login', {
         name,
         email,
         password

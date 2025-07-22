@@ -8,7 +8,7 @@ function Admindashbord() {
 const updateStatus = async (id, action) => {
   try {
     const token = localStorage.getItem('token');
-    await axios.put(`http://localhost:3001/admin/bookings/${id}/${action}`, {}, {
+    await axios.put(` https://module-6.onrender.com/admin/bookings/${id}/${action}`, {}, {
       headers: {
         Authorization: `Bearer ${token}`,
       },
@@ -29,7 +29,7 @@ const updateStatus = async (id, action) => {
     const fetchAdminBookings = async () => {
       try {
         const token = localStorage.getItem('token');
-        const res = await axios.get('http://localhost:3001/admin/bookings', {
+        const res = await axios.get(' https://module-6.onrender.com/admin/bookings', {
           headers: {
             Authorization: `Bearer ${token}`,
           },

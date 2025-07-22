@@ -18,7 +18,7 @@ function Flights() {
         return;
       }
 
-      let url = 'http://localhost:3001/flights';
+      let url = ' https://module-6.onrender.com/flights';
       const query = [];
       if (from) query.push(`from=${from}`);
       if (to) query.push(`to=${to}`);

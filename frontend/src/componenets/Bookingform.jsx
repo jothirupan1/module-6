@@ -26,7 +26,7 @@ function Bookingform() {
       }
 
       const res = await axios.post(
-        'http://localhost:3001/book',
+        ' https://module-6.onrender.com/book',
         {
           flightId: flight._id,
           journeyDate,
