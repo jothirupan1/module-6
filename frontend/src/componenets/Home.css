@@ -1,0 +1,17 @@
+.banner{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images6/Free-download-4K-Travel-Wallpaper-HD.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+}
+
+.about{
+    background-color: black;
+    color: white;
+   
+}
+
+.para{
+    font-size: 20px;
+}
